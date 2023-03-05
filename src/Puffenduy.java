@@ -66,6 +66,7 @@ public class Puffenduy extends Hogwarts{
         int s = 0;
         return s = s + super.sumProperties1();
     }*/
+    @Override
     public int ability(){
         return mind + creativity + wit + wisdom;
     }

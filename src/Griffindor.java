@@ -56,6 +56,7 @@ public class Griffindor extends Hogwarts {
         return s = s + super.sumProperties1();
     }*/
 
+    @Override
     public int ability(){
         return nobility + honor + bravery;
     }

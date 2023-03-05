@@ -54,11 +54,11 @@ public abstract class Hogwarts {
    }
    public int sumProperties(){
        return 0;
-   }*/
+   }
     public int sumProperties1() {
         int s = 0;
         return  s = s + witchcraft + transgress;
-    }
+    }*/
     public abstract int ability();
     public int ability1(){
        return witchcraft + transgress;

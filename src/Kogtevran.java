@@ -53,6 +53,7 @@ public class Kogtevran extends Hogwarts{
         int s = 0;
         return s = s + super.sumProperties1();
     }*/
+    @Override
     public int ability(){
         return industriousness + loyalty + honesty;
     }

@@ -78,6 +78,7 @@ public class Slytherin extends Hogwarts {
         return s = s + super.sumProperties1();
     }*/
 
+    @Override
     public int ability() {
         return cunning + determination + ambition + resourcefulness + powerРungry;
     }
