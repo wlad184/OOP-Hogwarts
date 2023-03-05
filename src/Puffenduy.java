@@ -1,3 +1,5 @@
+
+
 public class Puffenduy extends Hogwarts{
     private int mind;//ум
     private int wisdom;//мудрость
@@ -53,8 +55,40 @@ public class Puffenduy extends Hogwarts{
                 ", творчество = " + creativity;
 
     }
-
+    /*@Override
+    public int sumProperties(){
+    int s = 0;
+    return  s = s + mind + creativity + wit + wisdom;
 
     }
+    @Override
+    public int sumProperties1() {
+        int s = 0;
+        return s = s + super.sumProperties1();
+    }*/
+    public int ability(){
+        return mind + creativity + wit + wisdom;
+    }
+    @Override
+    public void compare(Hogwarts hogwarts){
+        int ability1 = ability();
+        int ability2 = hogwarts.ability();
+        if (ability1 > ability2){
+            System.out.println("Пуффендуец " + getName() + " лучше чем Пуффендуец " + hogwarts.getName() + ": " + ability1 + " VS " + ability2);
+        } else if (ability2 > ability1) {
+            System.out.println("Пуффендуец " + hogwarts.getName() + " лучше чем Пуффендуец " +getName() + ": " + ability2 + " VS " + ability1);
+
+        }else {
+            System.out.println("Пуффендуец " + getName() + " такой же как Пуффендуец " + hogwarts.getName() + ": " + ability1 + " VS " + ability2);
+        }
+
+    }
+    }
+
+
+
+    
+
+
 
 
